@@ -1,5 +1,7 @@
 $(document).ready(function (){
 
+
+
     /* FEATURES */
 
 $("#features").mouseenter(function () { 
