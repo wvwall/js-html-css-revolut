@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/master.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <title>wvwall_Revolut</title>
 </head>
 <body>
     <nav>
-        <section>
+        <section id="nav">
             <div class="container nav">
                 <div class="nav_left">
                     <img src="./assets/img/logo.png" alt="">
@@ -29,27 +29,27 @@
                             <a id="features" href="">Features</a>
                             <div class=" dropdown dropdown_features">
                                 <ul>
-                                    <li>ACCOUNT</li>
+                                    <li><i class="fas fa-university"></i>ACCOUNT</li>
                                     <li><a href="">Budget & Analytics</a></li>
                                     <li><a href="">Cards</a></li>
                                     <li><a href="">Junior account</a></li>
                                     <li><a href="">Pockets</a></li>
                                 </ul>
                                 <ul>
-                                    <li>WEALTH</li>
+                                    <li><i class="fas fa-wind"></i>WEALTH</li>
                                     <li><a href="">Crypto</a></li>
                                     <li><a href="">Commodities</a></li>
                                     <li><a href="">Vaults</a></li>
                                     <li><a class="soon" href="">Savings Vaults <span>COOMING SOON</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li>PAYMENTS</li>
+                                    <li><i class="fas fa-exchange-alt"></i>PAYMENTS</li>
                                     <li><a href="">Money transfers</a></li>
                                     <li><a href="">Group bills</a></li>
                                     <li><a href="">Subscriptions</a></li>
                                 </ul>
                                 <ul>
-                                    <li>EXTRAS</li>
+                                    <li><i class="fas fa-star"></i>EXTRAS</li>
                                     <li><a href="">Donations</a></li>
                                     <li><a href="">Overseas insurance</a></li>
                                     <li><a href="">Device insurance</a></li>
@@ -58,12 +58,48 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="">Plans</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Help</a></li>
+                        <li>
+                            <a id="plans" href="">Plans</a>
+                            <div class=" dropdown dropdown_plans">
+                                <ul>
+                                    <li><a href="">Standard</a></li>
+                                    <li><a href="">Plus</a></li>
+                                    <li><a href="">Premium</a></li>
+                                    <li><a href="">Metal</a></li>
+                                    <li><a href="">Compare plans</a></li>
+                                </ul>
+                             </div>   
+                        </li>
+                        <li>
+                            <a id="about" href="">About us</a>
+                            <div class=" dropdown dropdown_about">
+                                <ul>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Leadership</a></li>
+                                    <li><a href="">Newsroom</a></li>
+                                    <li><a href="">Affiliates</a></li>
+                                    <li><a href="">Influencers</a></li>
+                                    <li><a href="">Careers</a></li>
+                                    <li><a href="">Culture</a></li>
+                                    <li><a href="">Diversity & Inclusion</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                        </li>
+                        <li><a id="help" href="">Help</a>
+                            <div class=" dropdown dropdown_help">
+                                <ul>
+                                    <li><a href="">Help centre</a></li>
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Security</a></li>
+                                    <li><a href="">System Status</a></li>
+                                    <li><a href="">Developer APIs</a></li>
+                                </ul>
+                             </div>
+                            </li>
                     </ul>
                     <button class="btn">Sign in</button>
-                    <button class="btn">Get the App</button>
+                    <button class="btn app">Get the App</button>
                 </div>
             </div>
         </section>
