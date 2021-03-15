@@ -9,7 +9,7 @@
     display: flex;
     width: 90%;
     margin: 0 auto;
-    height: 80px;
+    height: 90px;
 }
 
 /* NAVBAR */
@@ -25,7 +25,7 @@
     width: 30%;
 }
 .nav_left img {
-    height: 40%;
+    height: 35%;
     margin-right: 50px;
 }
 .nav_left li  {
@@ -50,7 +50,7 @@
     text-decoration: none;
     color: #000;
     font-weight: 400;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .nav a:hover {
     color: #000;
@@ -89,7 +89,7 @@
     margin-top: 20px;
 }
  ul:first-child {
-    color: #CED5DB;
+    color: #a4a4a4;
 }
 
 .dropdown a {
