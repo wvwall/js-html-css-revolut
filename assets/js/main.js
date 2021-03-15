@@ -7,8 +7,7 @@ $(document).ready(function (){
 
 /* FUNCTIONS */
 
-
-function mouseEnterEscher(params) {
+function mouseEnterEscher() {
 
       /* FEATURES */
 
